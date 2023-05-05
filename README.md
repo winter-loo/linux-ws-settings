@@ -1,2 +1,2 @@
-A simple configuration file for vim
+linux configuration files
 =====================================
