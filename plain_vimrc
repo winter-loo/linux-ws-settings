@@ -13,3 +13,6 @@ imap jj <ESC>
 :  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
 :  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 :augroup END
+
+" Write all buffers before navigating from Vim to tmux pane
+let g:tmux_navigator_save_on_switch = 2
