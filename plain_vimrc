@@ -6,7 +6,7 @@ syntax on
 
 imap jj <ESC>
 
-:set number
+set number
 
 :augroup numbertoggle
 :  autocmd!
