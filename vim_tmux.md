@@ -14,7 +14,8 @@ Inside tmux session, press `C-b I` to install tmux plugins.
 For seamlessly moving between vim and tmux pane, run:
 
 ```shell
-git clone git@github.com:christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator
+cp plain_vimrc ~/.vimrc
+git clone https://github.com/christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator
 ```
 
 Now, you can use `C-h/j/k/l` to move around
